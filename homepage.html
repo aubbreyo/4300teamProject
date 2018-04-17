@@ -83,6 +83,31 @@
             outline: 0;
           }
 
+          .other
+          {
+            background-color: #404040;
+            border: 1px solid #404040;
+            border-radius: 20px;
+            color: white;
+            outline: 0;
+            font-size: 20px;
+            width: 20%;
+            padding: 7px;
+            font-style: arial black;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top:10px;
+          }
+
+          .other:hover
+          {
+            background-color: darkgrey;
+            border: 1px solid darkgrey;
+            border-radius: 20px;
+            color: white;
+            outline: 0;
+          }
+
           .list
           {
             text-align: center;
@@ -124,11 +149,16 @@
       <ul class = "header">
         <li><a href = "#movies"> Movies </a></li>
         <li><a href = "#tvshows"> TV Shows </a></li>
+        <li style = "float: right"><a href = "#signIn"> Sign-In </a></li>
         <li style = "float: right"><a href = "#profile"> Profile </a></li>
+
+
+          </div>
+        </li>
       </ul>
 
       <ul class = "genres">
-        <button type = "button"> Action/Adventure </button>
+        <button type = "submit"> Action/Adventure </button>
         <button type = "button"> Animation </button>
         <button type = "button"> Comedy </button>
         <button type = "button"> Crime/Mystery </button>
@@ -152,6 +182,10 @@
               <td> Stranger Things </td>
               <td> 13 </td>
         </table>
+
+        <form>
+          <button class = "other" type = "submit" name = "addNew"> Add New </button>
+        </form>
       </div>
 
 
