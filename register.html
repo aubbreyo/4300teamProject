@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- meta tag -->
+        <meta charset="utf-8">
+
+        <!-- style sheets -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <!-- tab details -->
+        <link rel="icon" type="image/png" href="img/cinema.png">
+        <title> Netflix Suggestions </title>
+
+        <style>
+
+          body
+          {
+            background-color: #E8E8E8;
+          }
+
+          ul
+          {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+
+          li
+          {
+            float: left;
+          }
+
+          li a
+          {
+            display: block;
+            color: #404040;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-style: arial black;
+            font-weight: bold;
+          }
+
+          .header
+          {
+            background-color: white;
+          }
+
+          .header li a:hover
+          {
+            background-color: white;
+            color: #404040;
+          }
+
+          .genres
+          {
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+
+          button
+          {
+            background-color: #404040;
+            border: 1px solid #404040;
+            border-radius: 20px;
+            color: white;
+            outline: 0;
+            font-size: 20px;
+            width: 20%;
+            padding: 7px;
+            font-style: arial black;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top:10px;
+          }
+
+          button:hover
+          {
+            background-color: darkgrey;
+            border: 1px solid darkgrey;
+            border-radius: 20px;
+            color: white;
+            outline: 0;
+          }
+
+         .register
+          {
+            text-align: center;
+            color: #404040;
+            font-style: arial black;
+            background-color: white;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            border: 3px solid white;
+            border-radius: 20px;
+
+          }
+
+          .i
+          {
+            width: 40%;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 16px;
+            font-style: arial black;
+            border: 1px solid #404040;
+            border-radius: 10px;
+            color: #404040;
+            padding-left: 2px;
+
+          }
+
+        </style>
+
+    </head>
+<body>
+
+    <ul class = "header">
+      <li><a href = "#movies"> Movies </a></li>
+      <li><a href = "#tvshows"> TV Shows </a></li>
+      <li style = "float: right"><a href = "#profile"> Profile </a></li>
+    </ul>
+
+    <div class="register">
+        <form>
+          <h1>Register</h1>
+          <input class ="i" type="text" placeholder="Username" name="username"><br>
+          <input class ="i" type="password" placeholder="Password" name="password"><br>
+          <input class ="i" type="password" placeholder="Confirm Password" name="passConfirm"><br><br>
+          <button type="submit">Register</button><br>
+        </form>
+    </div>
+
+
+    </body>
+</html>
